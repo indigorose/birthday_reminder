@@ -1,1 +1,43 @@
 /* add global styles - look at test cases for ideas*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+:root {
+  --main-container: hsl(221, 54%, 100%);
+  --main-item: hsl(72, 1%, 98%);
+  --main-text: hsl(205, 85%, 17%);
+  --main-secondary-text: rgba(152, 149, 149, 0.771);
+}
+body {
+  background-color: hsl(221, 54%, 95%);
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: var(--main-text);
+  font-size: 1.5rem;
+}
+
+h4 {
+  color: var(--main-text);
+}
+h5 {
+  color: var(--main-secondary-text);
+}
+
+.container {
+  border: 1px solid black;
+  margin: 0 auto;
+  max-width: 500px;
+  background-color: var(--main-container);
+}
+.item {
+  border: 1px solid red;
+  line-height: 0;
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+
+.btn {
+  display: inline-block;
+  max-width: 300px;
+  color: var(--main-text);
+}
