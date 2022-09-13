@@ -5,7 +5,6 @@ import Setup from "./useState";
 function App() {
   return (
     <div className="container">
-      <h1>5 Birthdays Today</h1>
       {/* find our how to add the count of data to the h1 title */}
       <Setup />
     </div>

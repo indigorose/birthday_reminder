@@ -6,8 +6,11 @@ const UseStateArray = () => {
 
   return (
     <>
+      <div className="heading">
+        <h1>5 Birthdays Today</h1>
+      </div>
       {people.map((person) => {
-        const { id, name, age, id_pic } = person;
+        const { id, name, age } = person;
         return (
           <div key={id} className="item">
             {/* add image details */}

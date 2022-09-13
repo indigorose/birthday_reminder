@@ -22,22 +22,34 @@ h4 {
 h5 {
   color: var(--main-secondary-text);
 }
-
+/* make the container smaller */
 .container {
   border: 1px solid black;
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 400px;
   background-color: var(--main-container);
+}
+.heading {
+  border: 1px solid red;
+  line-height: 0;
+  padding: 10px 10px;
+  margin: 20px 20px 20px 25px;
+  width: 325px;
 }
 .item {
   border: 1px solid red;
   line-height: 0;
   padding: 10px 10px;
-  margin: 10px 10px;
+  margin: 20px 20px 20px 25px;
+  width: 325px;
 }
-
+/* fix button styling */
 .btn {
-  display: inline-block;
-  max-width: 300px;
-  color: var(--main-text);
+  border: 1px solid red;
+  line-height: 0;
+  padding: 20px 20px;
+  margin: 20px 20px 20px 25px;
+  width: 340px;
+  color: var(--main-item);
+  background-color: rgba(152, 149, 149, 0.771);
 }
