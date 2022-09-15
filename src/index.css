@@ -33,23 +33,25 @@ h5 {
   border: 1px solid red;
   line-height: 0;
   padding: 10px 10px;
-  margin: 20px 20px 20px 25px;
+  margin: 20px auto;
   width: 325px;
 }
 .item {
   border: 1px solid red;
   line-height: 0;
   padding: 10px 10px;
-  margin: 20px 20px 20px 25px;
+  margin: 20px auto;
   width: 325px;
 }
 /* fix button styling */
 .btn {
   border: 1px solid red;
+  display: flex;
+  justify-content: center;
   line-height: 0;
   padding: 20px 20px;
-  margin: 20px 20px 20px 25px;
-  width: 340px;
+  margin: 20px auto;
+  width: 325px;
   color: var(--main-item);
   background-color: rgba(152, 149, 149, 0.771);
 }
